@@ -93,6 +93,7 @@ main {
 .navbar > ul >li >a{
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
 }
 
 .item-nav {

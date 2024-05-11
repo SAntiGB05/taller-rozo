@@ -19,6 +19,16 @@ header {
     align-items: center;
 }
 
+main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
 .container-logo {
     width: 30%;
     height: 90%;
@@ -94,4 +104,51 @@ header {
 .item-nav:hover{
     text-decoration: underline;
     text-shadow:0 0 10px #0a2244;
+}
+
+.conteiner-list{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-select{
+    border-radius: 15px;
+    background-color: #2e50b8;
+    border-color: #0c1541;
+    box-shadow:0 0 5px #162250;
+}
+
+.option-input{
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #2e50b8;
+    border-color: #0c1541;
+    box-shadow:0 0 5px #162250;
+}
+
+.conteiner-list> .option-2{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-list> .option-2 >h3{
+    font-size: 0.8rem;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-3{
+    width: 7rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

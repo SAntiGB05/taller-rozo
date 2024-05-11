@@ -201,4 +201,26 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+
+.conteiner-1{
+    width: 25%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-top: 2px solid #000;
+    margin: 1rem;
+}
+
+.conteiner-1  img{
+    width: 50px;
+    height: auto;
+    margin: 15px;
+}
+
+.conteiner-1  .social{
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
